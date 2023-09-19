@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holistic Hole</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Holistic Hole</h1>
+    </header>
+
+    <section>
+        <h2>Servicios Holísticos</h2>
+        <div class="servicios" id="sesiones"></div>
+    </section>
+
+    <section>
+        <form id="formulario" class="ocultar">
+            <h2>Reservar Turno Holístico</h2>
+            <div class="form-group">
+                <label for="inputFecha">Fecha:</label>
+                <input type="date" id="inputFecha" required>
+            </div>
+            <div class="form-group">
+                <label for="inputHora">Hora:</label>
+                <select id="inputHora" required>
+                    <option value="09:00">09:00 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="14:00">02:00 PM</option>
+                    <option value="15:00">03:00 PM</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="inputNombre">Nombre:</label>
+                <input type="text" id="inputNombre" required>
+            </div>
+            <div class="form-group">
+                <label for="inputApellido">Apellido:</label>
+                <input type="text" id="inputApellido" required>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail">Email:</label>
+                <input type="email" id="inputEmail" required>
+            </div>
+            <div class="form-group">
+                <button type="submit">Reservar</button>
+                <button type="button" id="btnCancelar">Cancelar</button>
+            </div>
+            <!-- Añadir un campo oculto para almacenar el servicio seleccionado -->
+            <input type="hidden" id="inputServicio">
+        </form>
+        
+
+        <div id="tarjetaFinalizacion" class="ocultar">
+            <!-- Tarjeta de finalización -->
+        </div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

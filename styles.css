@@ -1,0 +1,135 @@
+/* /* Estilos CSS para las tarjetas de serv. */
+.producto {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h2 {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+.producto p {
+    font-size: 1em;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.ocultar {
+    display: none;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los grupos de campos */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Estilos para etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="datetime-local"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de enviar */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para mensajes de error */
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilos para éxito */
+.success-message {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Estilos para la tarjeta de finalización */
+#tarjetaFinalizacion {
+    display: none;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#tarjetaFinalizacion h2 {
+    color: #333;
+}
+
+#tarjetaFinalizacion ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#tarjetaFinalizacion li {
+    margin: 10px 0;
+}
+
+#tarjetaFinalizacion strong {
+    font-weight: bold;
+}
+
+#cerrarTarjeta {
+    cursor: pointer;
+    color: #007bff;
+}
+
